@@ -1,10 +1,11 @@
 ---
 title: "ES 335: Machine Learning"
 subtitle: "August 2025 • IIT Gandhinagar"
+image: images/logo.jpeg
 ---
 
 ::: {.hero-banner}
-![Course Logo](images/logo.jpeg){width=200 fig-align="center"}
+![](images/logo.jpeg){width=200 fig-align="center"}
 
 ## Welcome to ES 335: Machine Learning
 

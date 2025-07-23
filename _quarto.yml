@@ -28,11 +28,10 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, styles.scss]
-      dark: [cosmo, styles-dark.scss]
+    theme: [cosmo, styles.scss]
     css: [styles.scss]
     toc: false
+    page-layout: full
     smooth-scroll: true
     highlight-style: github
     mainfont: "Inter, system-ui, -apple-system, sans-serif"
