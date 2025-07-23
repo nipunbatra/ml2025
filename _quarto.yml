@@ -3,36 +3,59 @@ project:
   output-dir: docs
 
 website:
-  title: "ES335"
+  title: "ES335: Machine Learning"
+  description: "Machine Learning course at IIT Gandhinagar, August 2025"
   favicon: images/logo.jpeg
   navbar:
+    background: "#ffffff"
+    foreground: "#333333"
     logo: images/logo.jpeg
+    logo-alt: "ES335 Logo"
+    title: false
+    left:
+      - text: "ES335"
+        href: index.qmd
+        class: "navbar-brand fw-bold"
     right:
       - href: index.qmd
         text: Home
-      - href: grading.qmd
-        text: Grading Policy
-      - href: faq.qmd
-        text: FAQs
       - href: schedule.qmd
-        text: Lectures
+        text: Schedule
+      - href: grading.qmd
+        text: Grading
+      - href: faq.qmd
+        text: FAQ
       - href: tentative.qmd
-        text: Tentative deadlines
+        text: Deadlines
       - href: https://nipunbatra.github.io
-        text: Instructor Homepage
-
+        text: Instructor
+        target: _blank
+  footer:
+    left: "© 2025 ES335: Machine Learning, IIT Gandhinagar"
+    right:
+      - text: "Instructor Homepage"
+        href: "https://nipunbatra.github.io"
+        target: _blank
 
 format:
   html:
     theme:
-      light: [litera, styles.scss]
-      dark: [darkly, styles-dark.scss]
-    highlight-style: a11y-dark
-    mainfont: "Roboto"
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles-dark.scss]
+    css: [styles.scss]
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    smooth-scroll: true
+    highlight-style: github
+    mainfont: "Inter, system-ui, -apple-system, sans-serif"
+    monofont: "JetBrains Mono, Monaco, Consolas, monospace"
     code-copy: true
     code-overflow: wrap
-
-
+    link-external-newwindow: true
+    anchor-sections: true
+    fig-responsive: true
+    
 execute:
   freeze: auto
 

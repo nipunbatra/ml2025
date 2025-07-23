@@ -1,79 +1,111 @@
 ---
-title: "ES 335 Machine Learning (August 2025)"
+title: "ES 335: Machine Learning"
+subtitle: "August 2025 • IIT Gandhinagar"
 ---
 
+::: {.hero-banner}
+![Course Logo](images/logo.jpeg){width=200 fig-align="center"}
 
-![](images/logo.jpeg)
+## Welcome to ES 335: Machine Learning
 
-### Please join the [Slack channel](https://join.slack.com/t/es335-2025/shared_invite/zt-3a7gi76q8-chqUpxbIdVGaKCsDzIxYcw) for the course.
+*A comprehensive introduction to machine learning concepts, algorithms, and applications*
 
-::: {.callout-tip}
-## Summary
+::: {.text-center}
+### [Join our Slack workspace](https://join.slack.com/t/es335-2025/shared_invite/zt-3a7gi76q8-chqUpxbIdVGaKCsDzIxYcw) for course announcements and discussions
+:::
+:::
 
-* Instructor: Nipun Batra <nipun.batra@iitgn.ac.in>
-    * Office: 13/401C
-    * [YouTube video](https://www.youtube.com/shorts/FmCbCkJQN1g) showing the directions to my office
-* Teaching Assistants: 
-    * Palak Gupta <24250063@iitgn.ac.in>
-    * Abhyudaya Nair <24210005@iitgn.ac.in>
-    * Dekka Muni Kumar <24210028@iitgn.ac.in>
-    * Diya Ashvinsinh Thakor <24210032@iitgn.ac.in>
-    * Vinayak Rana <24210114@iitgn.ac.in>
-    * Rishabh Mondal <rishabh.mondal@iitgn.ac.in>
-    * Ayush Shrivastava <shrivastavaayush@iitgn.ac.in>
-    * Chetana Dubey <24250030@iitgn.ac.in>
-    * Kaloori Shiva Prasad <24250041@iitgn.ac.in>
-    * Mallika Chouhan <24250052@iitgn.ac.in>
-    * Suruchi Hardaha <24250097@iitgn.ac.in>
-* Course Timings:
-    * Lectures:  10/103
-    * Tutorials:  10/103
+::: {.callout-note}
+## Course Information
 
+**Instructor:** [Prof. Nipun Batra](https://nipunbatra.github.io)  
+Email: nipun.batra@iitgn.ac.in  
+Office: 13/401C  
+[Directions to office](https://www.youtube.com/shorts/FmCbCkJQN1g)
+
+**Venue:** Room 10/103  
+
+**Teaching Assistants:**
+
+- Palak Gupta (24250063@iitgn.ac.in)
+- Abhyudaya Nair (24210005@iitgn.ac.in)  
+- Dekka Muni Kumar (24210028@iitgn.ac.in)
+- Diya Ashvinsinh Thakor (24210032@iitgn.ac.in)
+- Vinayak Rana (24210114@iitgn.ac.in)
+- Rishabh Mondal (rishabh.mondal@iitgn.ac.in)
+- Ayush Shrivastava (shrivastavaayush@iitgn.ac.in)
+- Chetana Dubey (24250030@iitgn.ac.in)
+- Kaloori Shiva Prasad (24250041@iitgn.ac.in)
+- Mallika Chouhan (24250052@iitgn.ac.in)
+- Suruchi Hardaha (24250097@iitgn.ac.in)
 :::
 
 
 
-::: {.callout-tip}
-## Pre-requisite exam
+::: {.callout-warning}
+## Prerequisite Exam
 
-The [pre-requisite exam](exams/prereq.qmd) has to be submitted by 6th August 2025, 9 PM. Details on how to submit the exam are given in the exam itself. The exam is open book and open internet.
+The [prerequisite exam](exams/prereq.qmd) must be submitted by **August 6th, 2025 at 9:00 PM**.  
+
+- The exam is **open book** and **open internet**
+- Submission instructions are provided within the exam
+- **Mandatory for course enrollment**
 :::
 
 
-### Pre-requisites:
+## Prerequisites
 
-*   Good experience in Python programming
-*   Probability
-*   Linear Algebra
+**Required Knowledge:**
+- **Python Programming** - Good experience with data structures and algorithms
+- **Probability & Statistics** - Basic concepts and distributions
+- **Linear Algebra** - Vectors, matrices, and operations
+- **Calculus** - Derivatives and basic optimization
 
-Course preparation: Students are encouraged to study some of the following to refresh their understanding of some of the prerequisities before the course formally begins.  
+### Preparation Materials
 
-*  First four chapters of the [Python Data Science handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-*   [Some material on Linear Algebra](https://machinelearningmastery.com/linear-algebra-machine-learning/)
-*   [Khan academy course on Stats and Probability](https://www.khanacademy.org/math/statistics-probability)
-* Mathematics for Machine Learning by Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon Ong. [\[Freely available online\]](https://mml-book.github.io/book/mml-book.pdf)
+To refresh your understanding before the course begins:
 
-
-
-### Reference textbooks:
-
-0. Mathematics for Machine Learning by Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon Ong. [\[Freely available online\]](https://mml-book.github.io/book/mml-book.pdf)
-1.  Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani. [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
-2.  Christopher Bishop. Pattern Recognition and Machine Learning. Springer, 2006.[\[Freely available online\]](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
-3.  Friedman J, Hastie T, Tibshirani R. The elements of statistical learning. New York, NY, USA:: Springer series in statistics; 2001.[\[Freely available online\]](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
-4.  Duda RO, Hart PE, Stork DG. Pattern classification. John Wiley & Sons; 2012 Nov 9.
-5.  Mitchell TM. Machine learning. 1997. Burr Ridge, IL: McGraw Hill. 1997;45(37):870-7.
-6.  Murphy, K. Machine Learning: A Probabilistic Perspective. MIT Press
-7.  Goodfellow I, Bengio Y, Courville A, Bengio Y. Deep learning. Cambridge: MIT press; 2016 Nov 18.[\[Freely available online\]](https://www.deeplearningbook.org/)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) (Chapters 1-4)
+- [Linear Algebra for Machine Learning](https://machinelearningmastery.com/linear-algebra-machine-learning/)
+- [Khan Academy: Statistics and Probability](https://www.khanacademy.org/math/statistics-probability)
+- [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) (Free PDF)
 
 
 
-### Some other ML courses
+## Reference Textbooks
 
-1.  [NPTEL course by Balaram Ravindran](https://www.youtube.com/watch?v=r4sgKrRL2Ys&list=PL1xHD4vteKYVpaIiy295pg6_SY5qznc77)
-2.  [CMU course by Tom Mitchell and Maria-Florina Balcan](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml)
-3.  [Coursera ML course by Andrew Ng](https://www.coursera.org/learn/machine-learning)
-4.  [FAST.ai course on ML](https://course.fast.ai/ml)
-5.  [Practical deep learning for coders by FAST.ai](https://course.fast.ai/index.html)
-6.  [Course by Alex Ihler, UCI](http://sli.ics.uci.edu/Classes/2015W-273a)
+**Primary References:**
+
+1. **Mathematics for Machine Learning** - Deisenroth, Faisal, Ong  
+   [Free PDF](https://mml-book.github.io/book/mml-book.pdf)
+
+2. **An Introduction to Statistical Learning** - James, Witten, Hastie, Tibshirani  
+   [Free Online](http://www-bcf.usc.edu/~gareth/ISL/)
+
+3. **Pattern Recognition and Machine Learning** - Christopher Bishop  
+   [Free PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
+**Additional References:**
+
+4. **The Elements of Statistical Learning** - Friedman, Hastie, Tibshirani  
+   [Free PDF](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+
+5. **Deep Learning** - Goodfellow, Bengio, Courville  
+   [Free Online](https://www.deeplearningbook.org/)
+
+6. **Pattern Classification** - Duda, Hart, Stork
+7. **Machine Learning** - Tom Mitchell
+8. **Machine Learning: A Probabilistic Perspective** - Kevin Murphy
+
+
+
+## Additional Learning Resources
+
+**Online Courses:**
+- [NPTEL Machine Learning](https://www.youtube.com/watch?v=r4sgKrRL2Ys&list=PL1xHD4vteKYVpaIiy295pg6_SY5qznc77) - Balaram Ravindran
+- [CMU Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml) - Mitchell & Balcan
+- [Coursera ML Course](https://www.coursera.org/learn/machine-learning) - Andrew Ng
+- [Fast.ai Machine Learning](https://course.fast.ai/ml)
+- [Fast.ai Deep Learning](https://course.fast.ai/index.html)
+- [UCI Machine Learning](http://sli.ics.uci.edu/Classes/2015W-273a) - Alex Ihler
 

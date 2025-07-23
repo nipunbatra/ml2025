@@ -2,48 +2,79 @@
 title: "Grading Policy"
 ---
 
+## Grade Distribution
 
-- Quizzes: 54%
-    - 18% each
-    - Best 3 out of 4
-    - If you miss a single quiz for any reason, there will be no makeups
----
+### Quizzes: 54%
+- **18% each** (4 quizzes total)
+- **Best 3 out of 4** quizzes count
+- **No makeup quizzes** for any reason
+- Missing a quiz = 0% for that quiz
 
-- Assignments: 40%
-    - 4 or 5 assignments
-    - Done in groups of TBA
-    - Atleast one question per assignment will be a project-like question
-    - Variable weight (e.g. some assignments would be 10%, some 12%, etc.)
-    - Some assignments would involve:
-        - Making pull requests to public repositories
-        - Writing Hugging Face Spaces like demos
----
-
-- Attendance: 6%
-    - <= 3 absences: 6%
-    - 4 or 5 absences: 5%
-    - 6 or 7 absences: 4%
-    - 8 or 9 absences: 3%
-    - 10 or 11 absences: 2%
-    - 12 or more absences: 0%
-
-Here is the [leave form](https://docs.google.com/forms/d/1efg5pt10GssAmyxIF83reFc5rQslRH4mI-yng7XXZ78/edit) for the class. Please fill it out if you are going to miss a class. Also, write an email to TA Isha Narang to check the status of your leave request.
+::: {.callout-note}
+## Quiz Schedule
+- 2 quizzes during mid-semester
+- 2 quizzes during end-semester  
+- Mix of MCQs and subjective questions
+- **Closed book** examinations
+:::
 
 ---
 
-BONUS (above 100%)
+### Assignments: 40%
+- **4-5 assignments** throughout the semester
+- **Group work** (team size TBA)
+- **Variable weights** (10-12% each)
+- At least one **project-like question** per assignment
 
-- Kaggle like competition bonus: (subject to change)
-    - participated: 0.5%
-    - 50th percentile: 1%
-    - 75th percentile: 1.5%
-    - 90th percentile: 2%
-    - 95th percentile: 2.5%
-    - Top three: 3%
+**Assignment Features:**
+- Pull requests to public repositories
+- Hugging Face Spaces demos
+- Viva voce evaluation (see FAQ for details)
+
+**Grade Breakdown:**
+- Code functionality: **50%**
+- Assignment understanding: **25%**
+- Code quality: **12.5%**
+- Theory concepts: **12.5%**
 
 ---
 
-- Upto 1.5% extra marks for answering questions in classes. Each question will be worth 0.5%. Thus, a student can avail this a maximum of 3 times. It is upto the discretion of the instructor to award these marks.
+### Attendance: 6%
+
+| Absences | Grade |
+|----------|-------|
+| ≤ 3      | 6%    |
+| 4-5      | 5%    |
+| 6-7      | 4%    |
+| 8-9      | 3%    |
+| 10-11    | 2%    |
+| ≥ 12     | 0%    |
+
+::: {.callout-tip}
+## Leave Requests
+[Submit leave form](https://docs.google.com/forms/d/1efg5pt10GssAmyxIF83reFc5rQslRH4mI-yng7XXZ78/edit) and email the TAs to check status.
+:::
+
+---
+
+## Bonus Points (Above 100%)
+
+### Kaggle Competition Bonus
+*Subject to change based on competition availability*
+
+| Performance | Bonus |
+|-------------|-------|
+| Participation | 0.5% |
+| 50th percentile | 1.0% |
+| 75th percentile | 1.5% |
+| 90th percentile | 2.0% |
+| 95th percentile | 2.5% |
+| **Top 3** | **3.0%** |
+
+### Class Participation
+- **Up to 1.5%** for answering questions in class
+- **0.5% per question** (maximum 3 questions)
+- At instructor's discretion
 
 
 

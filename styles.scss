@@ -1,8 +1,291 @@
 /*-- scss:defaults --*/
 
-@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap';
 
-$font-family: "Roboto", sans-serif;
-$font-family-serif: "Roboto", sans-serif;
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+$font-family-monospace: "JetBrains Mono", "Monaco", "Consolas", monospace;
+
+// Color scheme inspired by clean, minimal design
+$primary: #2563eb;
+$secondary: #64748b;
+$success: #059669;
+$info: #0ea5e9;
+$warning: #d97706;
+$danger: #dc2626;
+$light: #f8fafc;
+$dark: #1e293b;
+
+$body-bg: #ffffff;
+$body-color: #334155;
+$text-muted: #64748b;
+
+// Navigation
+$navbar-bg: #ffffff;
+$navbar-brand-color: #1e293b;
+$navbar-nav-link-color: #475569;
+$navbar-nav-link-hover-color: $primary;
+
+// Links
+$link-color: $primary;
+$link-hover-color: #1d4ed8;
+$link-decoration: none;
 
 /*-- scss:rules --*/
+
+// Global styles
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-sans-serif;
+  line-height: 1.6;
+  color: $body-color;
+}
+
+// Header and navigation improvements
+.navbar {
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 0.75rem 1rem;
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: $navbar-brand-color !important;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    margin: 0 0.25rem;
+    padding: 0.5rem 0.75rem !important;
+    border-radius: 0.375rem;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background-color: #f1f5f9;
+      color: $navbar-nav-link-hover-color !important;
+    }
+  }
+}
+
+// Content area improvements
+.quarto-container {
+  max-width: 1200px;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid $primary;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  margin-top: 2rem;
+  color: #334155;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #475569;
+}
+
+// Callout boxes (tips, warnings, etc.)
+.callout {
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+  margin: 1.5rem 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.callout.callout-tip {
+  border-left: 4px solid $primary;
+  background-color: #f8fafc;
+  
+  .callout-header {
+    background-color: rgba(37, 99, 235, 0.1);
+    color: $primary;
+    font-weight: 600;
+  }
+}
+
+.callout.callout-warning {
+  border-left: 4px solid $warning;
+  background-color: #fffbeb;
+  
+  .callout-header {
+    background-color: rgba(217, 119, 6, 0.1);
+    color: $warning;
+    font-weight: 600;
+  }
+}
+
+.callout.callout-note {
+  border-left: 4px solid $info;
+  background-color: #f0f9ff;
+  
+  .callout-header {
+    background-color: rgba(14, 165, 233, 0.1);
+    color: $info;
+    font-weight: 600;
+  }
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  width: 100%;
+  background: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+table th {
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+table tr:hover {
+  background-color: #f8fafc;
+}
+
+// Code styling
+code {
+  background-color: #f1f5f9;
+  color: #7c3aed;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  font-family: $font-family-monospace;
+}
+
+pre {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+  
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+// Footer
+.nav-footer {
+  border-top: 1px solid #e2e8f0;
+  background-color: #f8fafc;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+  
+  .nav-footer-left,
+  .nav-footer-right {
+    color: $text-muted;
+    font-size: 0.875rem;
+  }
+  
+  a {
+    color: $text-muted;
+    
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+// Responsive improvements
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem !important;
+  }
+  
+  table {
+    font-size: 0.875rem;
+  }
+  
+  .callout {
+    margin: 1rem 0;
+  }
+}
+
+// Image styling
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+// List improvements
+ul, ol {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $primary;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background-color: #f8fafc;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-style: italic;
+}
+
+// Content spacing
+.quarto-title-block {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+// Smooth scrolling for anchor links
+html {
+  scroll-padding-top: 80px;
+}

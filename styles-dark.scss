@@ -1,20 +1,166 @@
 /*-- scss:defaults --*/
 
-@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap';
 
-$font-family: "Roboto", sans-serif;
-$font-family-serif: "Roboto", sans-serif;
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+$font-family-monospace: "JetBrains Mono", "Monaco", "Consolas", monospace;
 
-$primary: #2c2c2c;
+// Dark theme color scheme
+$primary: #60a5fa;
+$secondary: #94a3b8;
+$success: #10b981;
+$info: #38bdf8;
+$warning: #f59e0b;
+$danger: #ef4444;
+$light: #374151;
+$dark: #111827;
+
+$body-bg: #0f172a;
+$body-color: #e2e8f0;
+$text-muted: #94a3b8;
+
+// Navigation
+$navbar-bg: #1e293b;
+$navbar-brand-color: #f1f5f9;
+$navbar-nav-link-color: #cbd5e1;
+$navbar-nav-link-hover-color: $primary;
+
+// Links
+$link-color: $primary;
+$link-hover-color: #93c5fd;
+$link-decoration: none;
 
 /*-- scss:rules --*/
 
-kbd,
-.kbd {
-    background-color: #222222 !important;
+// Global dark theme styles
+body {
+  background-color: $body-bg;
+  color: $body-color;
 }
 
+// Navigation dark theme
 .navbar {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+  background-color: $navbar-bg !important;
+  border-bottom: 1px solid #334155;
+  
+  .navbar-brand {
+    color: $navbar-brand-color !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: $navbar-nav-link-color !important;
+    
+    &:hover {
+      background-color: #334155;
+      color: $navbar-nav-link-hover-color !important;
+    }
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: #f1f5f9;
+}
+
+h1 {
+  border-bottom-color: $primary;
+}
+
+// Callout boxes dark theme
+.callout {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+.callout.callout-tip {
+  background-color: #1e293b;
+  border-left-color: $primary;
+  
+  .callout-header {
+    background-color: rgba(96, 165, 250, 0.1);
+    color: $primary;
+  }
+}
+
+.callout.callout-warning {
+  background-color: #1e293b;
+  border-left-color: $warning;
+  
+  .callout-header {
+    background-color: rgba(245, 158, 11, 0.1);
+    color: $warning;
+  }
+}
+
+.callout.callout-note {
+  background-color: #1e293b;
+  border-left-color: $info;
+  
+  .callout-header {
+    background-color: rgba(56, 189, 248, 0.1);
+    color: $info;
+  }
+}
+
+// Tables dark theme
+table {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+}
+
+table th {
+  background-color: #374151;
+  color: #f9fafb;
+  border-bottom-color: #4b5563;
+}
+
+table td {
+  border-bottom-color: #334155;
+}
+
+table tr:hover {
+  background-color: #374151;
+}
+
+// Code dark theme
+code {
+  background-color: #374151;
+  color: #a78bfa;
+}
+
+pre {
+  background-color: #111827;
+  border: 1px solid #374151;
+}
+
+// Footer dark theme
+.nav-footer {
+  background-color: #1e293b;
+  border-top-color: #334155;
+  
+  .nav-footer-left,
+  .nav-footer-right {
+    color: $text-muted;
+  }
+}
+
+// Blockquotes dark theme
+blockquote {
+  background-color: #1e293b;
+  border-left-color: $primary;
+  color: #cbd5e1;
+}
+
+// Content spacing dark theme
+.quarto-title-block {
+  border-bottom-color: #334155;
+}
+
+// Keyboard shortcuts
+kbd,
+.kbd {
+  background-color: #374151 !important;
+  color: #e5e7eb;
+  border: 1px solid #4b5563;
 }
