@@ -1,11 +1,11 @@
 ---
-title: "ES 335 Machine Learning (August 2024)"
+title: "ES 335 Machine Learning (August 2025)"
 ---
 
 
 ![](images/logo.jpeg)
 
-### Please join the [Slack channel](https://join.slack.com/t/es-335-fall-2024/shared_invite/zt-2mz08i9ur-uSgTNgmNsfmXnfjCTNPnew) for the course.
+### Please join the [Slack channel](https://join.slack.com/t/es335-2025/shared_invite/zt-3a7gi76q8-chqUpxbIdVGaKCsDzIxYcw) for the course.
 
 ::: {.callout-tip}
 ## Summary
@@ -36,7 +36,7 @@ title: "ES 335 Machine Learning (August 2024)"
 ::: {.callout-tip}
 ## Pre-requisite exam
 
-The [pre-requisite exam](exams/prereq.qmd) has to be submitted by 6th August 2024, 9 PM. Details on how to submit the exam are given in the exam itself. The exam is open book and open internet.
+The [pre-requisite exam](exams/prereq.qmd) has to be submitted by 6th August 2025, 9 PM. Details on how to submit the exam are given in the exam itself. The exam is open book and open internet.
 :::
 
 
