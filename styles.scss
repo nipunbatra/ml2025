@@ -6,44 +6,43 @@
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
 $font-family-monospace: "JetBrains Mono", "Monaco", "Consolas", monospace;
 
-// Improved contrast warm theme inspired by Anthropic docs
-$primary: #8B6914;           // Warmer, darker brown-gold
-$secondary: #B8956A;         // Muted gold
-$accent-blue: #4A7BA7;       // Deeper steel blue
-$accent-green: #5A8471;      // Deeper forest green
-$success: #5A8471;
-$info: #4A7BA7;
-$warning: #B8956A;
-$danger: #B85A5A;
+// Seoul256-inspired gentle color scheme
+$primary: #5f87af;           // Soft blue
+$secondary: #87af87;         // Soft green  
+$accent: #d7af87;           // Warm beige
+$warning: #d7875f;          // Soft orange
+$danger: #d78787;           // Soft red
+$info: #87afd7;             // Light blue
 
-// Base colors with better contrast
-$body-bg: #FDFDF7;           // Cream white (like Anthropic docs)
-$body-color: #1F2937;        // Much darker text for better readability
-$text-muted: #6B7280;        // Medium gray for secondary text
+// Very gentle, easy-on-eyes colors
+$body-bg: #f8f6f2;          // Very light warm gray
+$body-color: #4e4e4e;       // Medium gray (not too dark)
+$text-muted: #767676;       // Light gray for secondary text
 
-// Navigation colors
-$navbar-bg: #FDFDF7;
-$navbar-brand-color: #1F2937;
-$navbar-nav-link-color: #374151;
+// Navigation
+$navbar-bg: #f8f6f2;
+$navbar-brand-color: #4e4e4e;
+$navbar-nav-link-color: #5f5f5f;
 $navbar-nav-link-hover-color: $primary;
 
 // Links
 $link-color: $primary;
-$link-hover-color: $accent-blue;
+$link-hover-color: $secondary;
 $link-decoration: none;
 
 /*-- scss:rules --*/
 
-// CSS Custom Properties for consistent theming
+// CSS Custom Properties for Seoul256-inspired theme
 :root {
-  --bg-color: #FDFDF7;
-  --text-color: #1F2937;
-  --text-muted: #6B7280;
-  --accent-brown: #8B6914;
-  --accent-gold: #B8956A;
-  --accent-blue: #4A7BA7;
-  --accent-green: #5A8471;
-  --border-color: #E5E7EB;
+  --bg-color: #f8f6f2;
+  --text-color: #4e4e4e;
+  --text-muted: #767676;
+  --text-light: #8a8a8a;
+  --primary: #5f87af;
+  --secondary: #87af87;
+  --accent: #d7af87;
+  --border-color: #e8e6e2;
+  --card-bg: #fcfbf9;
 }
 
 // Global styles
@@ -53,7 +52,7 @@ html {
 
 body {
   font-family: $font-family-sans-serif;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--text-color);
   background-color: var(--bg-color);
   font-size: 16px;
@@ -84,15 +83,15 @@ main.content {
   display: none !important;
 }
 
-// Header and navigation improvements
+// Gentle navigation
 .navbar {
   border-bottom: 1px solid var(--border-color);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
   padding: 0.75rem 1rem;
   background-color: var(--bg-color) !important;
   
   .navbar-brand {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.5rem;
     color: var(--text-color) !important;
     
@@ -106,7 +105,7 @@ main.content {
   }
   
   .navbar-nav .nav-link {
-    font-weight: 500;
+    font-weight: 400;
     margin: 0 0.25rem;
     padding: 0.5rem 0.75rem !important;
     border-radius: 6px;
@@ -114,139 +113,134 @@ main.content {
     color: var(--text-color) !important;
     
     &:hover {
-      background-color: rgba(139, 105, 20, 0.08);
-      color: var(--accent-brown) !important;
+      background-color: rgba(95, 135, 175, 0.08);
+      color: var(--primary) !important;
     }
   }
 }
 
-// Headings with better contrast
+// Gentle headings
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-bottom: 1rem;
-  color: var(--text-color);
+  color: #424242; // Slightly darker than body text
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   margin-bottom: 1.5rem;
-  border-bottom: 3px solid var(--accent-brown);
+  border-bottom: 2px solid var(--primary);
   padding-bottom: 0.5rem;
-  color: #111827; // Even darker for main headings
 }
 
 h2 {
-  font-size: 1.875rem;
+  font-size: 1.75rem;
   margin-top: 2rem;
-  color: #1F2937;
+  color: #464646;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #374151;
+  color: #4a4a4a;
 }
 
-// Callout boxes with better contrast
+// Soft callout boxes
 .callout {
   border-radius: 6px;
   border: 1px solid var(--border-color);
   margin: 1.5rem 0;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
-  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
+  background-color: var(--card-bg);
 }
 
 .callout.callout-tip,
 .callout.callout-note {
-  border-left: 4px solid var(--accent-brown);
+  border-left: 3px solid var(--primary);
   
   .callout-header {
-    background-color: rgba(139, 105, 20, 0.08);
-    color: var(--accent-brown);
-    font-weight: 600;
+    background-color: rgba(95, 135, 175, 0.06);
+    color: var(--primary);
+    font-weight: 500;
   }
 }
 
 .callout.callout-warning {
-  border-left: 4px solid var(--accent-gold);
+  border-left: 3px solid var(--accent);
   
   .callout-header {
-    background-color: rgba(184, 149, 106, 0.08);
-    color: #996B1F;
-    font-weight: 600;
+    background-color: rgba(215, 175, 135, 0.06);
+    color: #b8965a;
+    font-weight: 500;
   }
 }
 
-// Tables with improved readability
+// Gentle tables
 table {
   border-collapse: collapse;
   margin: 1.5rem 0;
   width: 100%;
-  background: #FFFFFF;
+  background: var(--card-bg);
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
   border: 1px solid var(--border-color);
 }
 
 table th {
-  background-color: #F9FAFB;
-  color: #111827;
-  font-weight: 600;
+  background-color: #f2f0ec;
+  color: #424242;
+  font-weight: 500;
   padding: 0.75rem 1rem;
   text-align: left !important;
-  border-bottom: 2px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 table td {
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #F3F4F6;
+  border-bottom: 1px solid #f0eeea;
   text-align: left !important;
-  color: #1F2937;
+  color: var(--text-color);
 }
 
 table tr:hover {
-  background-color: rgba(139, 105, 20, 0.03);
+  background-color: rgba(95, 135, 175, 0.02);
 }
 
-// Code styling with better contrast
+// Gentle code styling
 code {
-  background-color: #F3F4F6;
-  color: #7C2D12;
-  padding: 0.125rem 0.25rem;
-  border-radius: 4px;
-  font-size: 0.875em;
+  background-color: #f0eeea;
+  color: #6b5b73;
+  padding: 0.125rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.9em;
   font-family: $font-family-monospace;
-  border: 1px solid #E5E7EB;
 }
 
 pre {
-  background-color: #1F2937;
-  color: #F9FAFB;
+  background-color: #3a3a3a;
+  color: #e0e0e0;
   padding: 1rem;
   border-radius: 6px;
   overflow-x: auto;
   margin: 1rem 0;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  border: 1px solid #374151;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
 }
 
 pre code {
   background: none;
   color: inherit;
   padding: 0;
-  border: none;
 }
 
-// Links with good contrast
+// Gentle links
 a {
-  color: var(--accent-brown);
+  color: var(--primary);
   text-decoration: none;
   transition: color 0.15s ease-in-out;
-  font-weight: 500;
   
   &:hover {
-    color: var(--accent-blue);
+    color: var(--secondary);
     text-decoration: underline;
   }
 }
@@ -255,11 +249,11 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
 }
 
-// Remove circular background from navbar logo
+// Remove logo styling issues
 .navbar-brand img {
   border-radius: 0 !important;
   box-shadow: none !important;
@@ -267,26 +261,26 @@ img {
   padding: 0 !important;
 }
 
-// List improvements
+// Lists
 ul, ol {
   padding-left: 1.5rem;
   margin: 1rem 0;
 }
 
 li {
-  margin: 0.5rem 0;
+  margin: 0.4rem 0;
   color: var(--text-color);
 }
 
-// Blockquotes
+// Gentle blockquotes
 blockquote {
-  border-left: 4px solid var(--accent-brown);
+  border-left: 3px solid var(--primary);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  background-color: rgba(139, 105, 20, 0.05);
-  border-radius: 0 6px 6px 0;
+  background-color: rgba(95, 135, 175, 0.03);
+  border-radius: 0 4px 4px 0;
   font-style: italic;
-  color: #374151;
+  color: var(--text-color);
 }
 
 // Content spacing
@@ -296,38 +290,29 @@ blockquote {
   border-bottom: 1px solid var(--border-color);
 }
 
-// Button styling (for any buttons)
+// Buttons
 button, .btn {
-  background-color: var(--accent-brown);
+  background-color: var(--primary);
   color: white;
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 6px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s ease;
-  font-weight: 500;
+  font-weight: 400;
   
   &:hover {
-    background-color: var(--accent-blue);
+    background-color: var(--secondary);
   }
 }
 
-// Highlight sections
-.highlight {
-  background-color: rgba(184, 149, 106, 0.1);
-  padding: 0.5rem;
-  border-radius: 4px;
-  color: var(--text-color);
-  border: 1px solid rgba(184, 149, 106, 0.2);
-}
-
-// Better text contrast for secondary content
+// Text hierarchy
 .text-muted,
 .quarto-secondary {
   color: var(--text-muted) !important;
 }
 
-// Responsive improvements
+// Responsive
 @media (max-width: 768px) {
   body {
     padding: 1rem;
@@ -337,29 +322,17 @@ button, .btn {
     font-size: 2rem;
   }
   
-  .navbar-brand {
-    font-size: 1.25rem !important;
-  }
-  
-  table {
-    font-size: 0.875rem;
-  }
-  
-  .callout {
-    margin: 1rem 0;
-  }
-  
   .container-fluid {
     padding: 0 1rem;
   }
 }
 
-// Smooth scrolling for anchor links
+// Smooth scrolling
 html {
   scroll-padding-top: 80px;
 }
 
-// Hero banner styling
+// Hero banner
 .hero-banner {
   text-align: center;
   padding: 2rem 0;
@@ -370,14 +343,14 @@ html {
   }
 }
 
-// Improved spacing and readability
+// Better paragraph spacing
 p {
   margin-bottom: 1rem;
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
-// Strong emphasis
+// Gentle emphasis
 strong, b {
   font-weight: 600;
-  color: #111827;
+  color: #424242;
 }
