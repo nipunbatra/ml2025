@@ -113,14 +113,22 @@ table th {
   background-color: #374151;
   color: #f9fafb;
   border-bottom-color: #4b5563;
+  text-align: left;
 }
 
 table td {
   border-bottom-color: #334155;
+  text-align: left;
 }
 
 table tr:hover {
   background-color: #374151;
+}
+
+// Force left alignment for all table content in dark mode
+table th,
+table td {
+  text-align: left !important;
 }
 
 // Code dark theme

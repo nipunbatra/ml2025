@@ -75,6 +75,31 @@ body {
   max-width: 1200px;
 }
 
+// Force full width content without sidebar
+#quarto-content {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.quarto-layout-row {
+  width: 100% !important;
+}
+
+// Hide any potential sidebar
+#quarto-sidebar,
+.sidebar,
+.quarto-sidebar-container {
+  display: none !important;
+}
+
+// Ensure main content takes full width
+main.content {
+  width: 100% !important;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 // Headings
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
@@ -165,10 +190,17 @@ table th {
 table td {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid #f1f5f9;
+  text-align: left;
 }
 
 table tr:hover {
   background-color: #f8fafc;
+}
+
+// Force left alignment for all table content
+table th,
+table td {
+  text-align: left !important;
 }
 
 // Code styling

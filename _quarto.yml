@@ -11,7 +11,7 @@ website:
     foreground: "#333333"
     logo: images/logo.jpeg
     logo-alt: "ES335 Logo"
-    title: "ES335"
+    title: false
     right:
       - href: index.qmd
         text: Home
@@ -32,9 +32,7 @@ format:
       light: [cosmo, styles.scss]
       dark: [cosmo, styles-dark.scss]
     css: [styles.scss]
-    toc: true
-    toc-location: right
-    toc-depth: 3
+    toc: false
     smooth-scroll: true
     highlight-style: github
     mainfont: "Inter, system-ui, -apple-system, sans-serif"
