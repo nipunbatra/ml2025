@@ -8,6 +8,9 @@ name: Build and Deploy to GitHub Pages
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     permissions:
       contents: read
       pages: write
@@ -24,8 +27,6 @@ jobs:
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: _quarto.yml
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
