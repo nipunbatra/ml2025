@@ -25,6 +25,10 @@ website:
         text: Deadlines
       - href: https://nipunbatra.github.io
         text: Instructor
+  page-footer:
+    left: "ES335: Machine Learning • IIT Gandhinagar • August 2025"
+    right: "Made with [Quarto](https://quarto.org) • [Prof. Nipun Batra](https://nipunbatra.github.io)"
+    background: "#f8fafc"
 
 format:
   html:

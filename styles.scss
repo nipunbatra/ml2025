@@ -353,8 +353,74 @@ p {
   line-height: 1.6;
 }
 
+// Improve readability with better line spacing for longer content
+.quarto-title-block .description,
+.callout p {
+  line-height: 1.65;
+}
+
 // Clean emphasis
 strong, b {
   font-weight: 500; // Thinner bold weight
   color: var(--text-dark);
+}
+
+// Footer styling
+.nav-footer {
+  background-color: #f8fafc;
+  border-top: 1px solid var(--border-color);
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  
+  .nav-footer-left,
+  .nav-footer-right {
+    color: var(--text-muted);
+  }
+  
+  a {
+    color: var(--primary);
+    font-weight: 400;
+    
+    &:hover {
+      color: #1d4ed8;
+    }
+  }
+}
+
+// Additional improvements
+// Better spacing for content sections
+section {
+  margin-bottom: 2rem;
+}
+
+// Improved list spacing
+ul li, ol li {
+  margin-bottom: 0.25rem;
+}
+
+// Better heading spacing
+h2 + p, h3 + p {
+  margin-top: 0.5rem;
+}
+
+// Subtle improvements to callouts
+.callout-body {
+  padding: 1rem;
+}
+
+// Better link styling in navigation
+.navbar .navbar-nav .nav-link.active {
+  color: var(--primary) !important;
+  background-color: rgba(37, 99, 235, 0.08);
+}
+
+// Improved table responsiveness
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
