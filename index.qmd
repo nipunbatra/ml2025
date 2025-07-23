@@ -9,13 +9,10 @@ image: images/logo.jpeg
 
 ## Welcome to ES 335: Machine Learning
 
-*A comprehensive introduction to machine learning concepts, algorithms, and applications*
 
 ::: {.text-center}
 ### [Join our Slack workspace](https://join.slack.com/t/es335-2025/shared_invite/zt-3a7gi76q8-chqUpxbIdVGaKCsDzIxYcw) for course announcements and discussions
 
-*Get ready to dive into the fascinating world of machine learning!*
-:::
 :::
 
 ::: {.callout-note}
@@ -59,6 +56,7 @@ The [prerequisite exam](exams/prereq.qmd) must be submitted by **August 6th, 202
 ## Prerequisites
 
 **Required Knowledge:**
+
 - **Python Programming** - Good experience with data structures and algorithms
 - **Probability & Statistics** - Basic concepts and distributions
 - **Linear Algebra** - Vectors, matrices, and operations
@@ -79,22 +77,17 @@ To refresh your understanding before the course begins:
 
 **Primary References:**
 
-1. **Mathematics for Machine Learning** - Deisenroth, Faisal, Ong  
-   [Free PDF](https://mml-book.github.io/book/mml-book.pdf)
+1. **Mathematics for Machine Learning** - Deisenroth, Faisal, Ong • [Free PDF](https://mml-book.github.io/book/mml-book.pdf)
 
-2. **An Introduction to Statistical Learning** - James, Witten, Hastie, Tibshirani  
-   [Free Online](http://www-bcf.usc.edu/~gareth/ISL/)
+2. **An Introduction to Statistical Learning** - James, Witten, Hastie, Tibshirani • [Free Online](http://www-bcf.usc.edu/~gareth/ISL/)
 
-3. **Pattern Recognition and Machine Learning** - Christopher Bishop  
-   [Free PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+3. **Pattern Recognition and Machine Learning** - Christopher Bishop • [Free PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 
 **Additional References:**
 
-4. **The Elements of Statistical Learning** - Friedman, Hastie, Tibshirani  
-   [Free PDF](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+4. **The Elements of Statistical Learning** - Friedman, Hastie, Tibshirani • [Free PDF](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 
-5. **Deep Learning** - Goodfellow, Bengio, Courville  
-   [Free Online](https://www.deeplearningbook.org/)
+5. **Deep Learning** - Goodfellow, Bengio, Courville • [Free Online](https://www.deeplearningbook.org/)
 
 6. **Pattern Classification** - Duda, Hart, Stork
 7. **Machine Learning** - Tom Mitchell
@@ -105,6 +98,7 @@ To refresh your understanding before the course begins:
 ## Additional Learning Resources
 
 **Online Courses:**
+
 - [NPTEL Machine Learning](https://www.youtube.com/watch?v=r4sgKrRL2Ys&list=PL1xHD4vteKYVpaIiy295pg6_SY5qznc77) - Balaram Ravindran
 - [CMU Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml) - Mitchell & Balcan
 - [Coursera ML Course](https://www.coursera.org/learn/machine-learning) - Andrew Ng
