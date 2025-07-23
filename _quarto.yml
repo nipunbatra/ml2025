@@ -27,6 +27,7 @@ website:
         text: Instructor
   page-footer:
     left: "ES335: Machine Learning • IIT Gandhinagar • August 2025"
+    center: "© 2025 Nipun Batra"
     right: "Made with [Quarto](https://quarto.org) • [Prof. Nipun Batra](https://nipunbatra.github.io)"
     background: "#f8fafc"
 
