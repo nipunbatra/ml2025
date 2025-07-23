@@ -14,17 +14,17 @@ title: "ES 335 Machine Learning (August 2025)"
     * Office: 13/401C
     * [YouTube video](https://www.youtube.com/shorts/FmCbCkJQN1g) showing the directions to my office
 * Teaching Assistants: 
-    * Anupam Sharma <sharmaanupam@iitgn.ac.in>
+    * Palak Gupta <24250063@iitgn.ac.in>
+    * Abhyudaya Nair <24210005@iitgn.ac.in>
+    * Dekka Muni Kumar <24210028@iitgn.ac.in>
+    * Diya Ashvinsinh Thakor <24210032@iitgn.ac.in>
+    * Vinayak Rana <24210114@iitgn.ac.in>
+    * Rishabh Mondal <rishabh.mondal@iitgn.ac.in>
     * Ayush Shrivastava <shrivastavaayush@iitgn.ac.in>
-    * Eshwar Dhande <eshwar.dhande@iitgn.ac.in>
-    * Isha Narang <isha.narang@iitgn.ac.in>
-    * Prince Kumar <prince.kumar@iitgn.ac.in>
-    * Sawan Verma <sawan.verma@iitgn.ac.in>
-    * Shataxi Dubey <shataxi.dubey@iitgn.ac.in>
-    * Aadya Arora <aadya.arora@iitgn.ac.in>
-    * Bhoumik Patidar <bhoumik.patidar@iitgn.ac.in>
-    * Guntas Singh Saran <guntassingh.saran@iitgn.ac.in>
-    * Hrriday Ruparel <hrriday.ruparel@iitgn.ac.in>
+    * Chetana Dubey <24250030@iitgn.ac.in>
+    * Kaloori Shiva Prasad <24250041@iitgn.ac.in>
+    * Mallika Chouhan <24250052@iitgn.ac.in>
+    * Suruchi Hardaha <24250097@iitgn.ac.in>
 * Course Timings:
     * Lectures:  10/103
     * Tutorials:  10/103
