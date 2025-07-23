@@ -6,23 +6,24 @@
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
 $font-family-monospace: "JetBrains Mono", "Monaco", "Consolas", monospace;
 
-// Seoul256-inspired gentle color scheme
-$primary: #5f87af;           // Soft blue
-$secondary: #87af87;         // Soft green  
-$accent: #d7af87;           // Warm beige
-$warning: #d7875f;          // Soft orange
-$danger: #d78787;           // Soft red
-$info: #87afd7;             // Light blue
+// Actual Seoul256 dark theme colors
+$primary: #85add4;           // Seoul256 blue
+$secondary: #87af87;         // Seoul256 bright green
+$accent: #d8af5f;           // Seoul256 yellow
+$warning: #d68787;          // Seoul256 red
+$danger: #d75f87;           // Seoul256 bright red
+$info: #87afaf;             // Seoul256 cyan
+$success: #5f865f;          // Seoul256 green
 
-// Very gentle, easy-on-eyes colors
-$body-bg: #f8f6f2;          // Very light warm gray
-$body-color: #4e4e4e;       // Medium gray (not too dark)
-$text-muted: #767676;       // Light gray for secondary text
+// Seoul256 base colors
+$body-bg: #3a3a3a;          // Seoul256 background
+$body-color: #d0d0d0;       // Seoul256 foreground
+$text-muted: #626262;       // Seoul256 bright black
 
 // Navigation
-$navbar-bg: #f8f6f2;
-$navbar-brand-color: #4e4e4e;
-$navbar-nav-link-color: #5f5f5f;
+$navbar-bg: #3a3a3a;
+$navbar-brand-color: #d0d0d0;
+$navbar-nav-link-color: #d0d0d0;
 $navbar-nav-link-hover-color: $primary;
 
 // Links
@@ -32,17 +33,18 @@ $link-decoration: none;
 
 /*-- scss:rules --*/
 
-// CSS Custom Properties for Seoul256-inspired theme
+// CSS Custom Properties for Seoul256 dark theme
 :root {
-  --bg-color: #f8f6f2;
-  --text-color: #4e4e4e;
-  --text-muted: #767676;
-  --text-light: #8a8a8a;
-  --primary: #5f87af;
+  --bg-color: #3a3a3a;
+  --text-color: #d0d0d0;
+  --text-muted: #626262;
+  --text-bright: #ffffff;
+  --primary: #85add4;
   --secondary: #87af87;
-  --accent: #d7af87;
-  --border-color: #e8e6e2;
-  --card-bg: #fcfbf9;
+  --accent: #d8af5f;
+  --warning: #d68787;
+  --border-color: #4e4e4e;
+  --card-bg: #424242;
 }
 
 // Global styles
@@ -83,10 +85,10 @@ main.content {
   display: none !important;
 }
 
-// Gentle navigation
+// Dark navigation
 .navbar {
   border-bottom: 1px solid var(--border-color);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   padding: 0.75rem 1rem;
   background-color: var(--bg-color) !important;
   
@@ -113,18 +115,18 @@ main.content {
     color: var(--text-color) !important;
     
     &:hover {
-      background-color: rgba(95, 135, 175, 0.08);
+      background-color: rgba(133, 173, 212, 0.1);
       color: var(--primary) !important;
     }
   }
 }
 
-// Gentle headings
+// Dark headings
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.3;
   margin-bottom: 1rem;
-  color: #424242; // Slightly darker than body text
+  color: var(--text-bright);
 }
 
 h1 {
@@ -137,20 +139,20 @@ h1 {
 h2 {
   font-size: 1.75rem;
   margin-top: 2rem;
-  color: #464646;
+  color: #e0e0e0;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #4a4a4a;
+  color: #d8d8d8;
 }
 
-// Soft callout boxes
+// Dark callout boxes
 .callout {
   border-radius: 6px;
   border: 1px solid var(--border-color);
   margin: 1.5rem 0;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   background-color: var(--card-bg);
 }
 
@@ -159,7 +161,7 @@ h3 {
   border-left: 3px solid var(--primary);
   
   .callout-header {
-    background-color: rgba(95, 135, 175, 0.06);
+    background-color: rgba(133, 173, 212, 0.1);
     color: var(--primary);
     font-weight: 500;
   }
@@ -169,13 +171,13 @@ h3 {
   border-left: 3px solid var(--accent);
   
   .callout-header {
-    background-color: rgba(215, 175, 135, 0.06);
-    color: #b8965a;
+    background-color: rgba(216, 175, 95, 0.1);
+    color: var(--accent);
     font-weight: 500;
   }
 }
 
-// Gentle tables
+// Dark tables
 table {
   border-collapse: collapse;
   margin: 1.5rem 0;
@@ -183,13 +185,13 @@ table {
   background: var(--card-bg);
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   border: 1px solid var(--border-color);
 }
 
 table th {
-  background-color: #f2f0ec;
-  color: #424242;
+  background-color: #4a4a4a;
+  color: var(--text-bright);
   font-weight: 500;
   padding: 0.75rem 1rem;
   text-align: left !important;
@@ -198,19 +200,19 @@ table th {
 
 table td {
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #f0eeea;
+  border-bottom: 1px solid #484848;
   text-align: left !important;
   color: var(--text-color);
 }
 
 table tr:hover {
-  background-color: rgba(95, 135, 175, 0.02);
+  background-color: rgba(133, 173, 212, 0.05);
 }
 
-// Gentle code styling
+// Dark code styling
 code {
-  background-color: #f0eeea;
-  color: #6b5b73;
+  background-color: #484848;
+  color: #d7afaf;
   padding: 0.125rem 0.3rem;
   border-radius: 3px;
   font-size: 0.9em;
@@ -218,13 +220,14 @@ code {
 }
 
 pre {
-  background-color: #3a3a3a;
-  color: #e0e0e0;
+  background-color: #2a2a2a;
+  color: #d0d0d0;
   padding: 1rem;
   border-radius: 6px;
   overflow-x: auto;
   margin: 1rem 0;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+  border: 1px solid #4e4e4e;
 }
 
 pre code {
@@ -233,7 +236,7 @@ pre code {
   padding: 0;
 }
 
-// Gentle links
+// Dark links
 a {
   color: var(--primary);
   text-decoration: none;
@@ -245,12 +248,12 @@ a {
   }
 }
 
-// Images
+// Images with dark theme
 img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 // Remove logo styling issues
@@ -261,7 +264,7 @@ img {
   padding: 0 !important;
 }
 
-// Lists
+// Dark lists
 ul, ol {
   padding-left: 1.5rem;
   margin: 1rem 0;
@@ -272,12 +275,12 @@ li {
   color: var(--text-color);
 }
 
-// Gentle blockquotes
+// Dark blockquotes
 blockquote {
   border-left: 3px solid var(--primary);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  background-color: rgba(95, 135, 175, 0.03);
+  background-color: rgba(133, 173, 212, 0.05);
   border-radius: 0 4px 4px 0;
   font-style: italic;
   color: var(--text-color);
@@ -290,23 +293,23 @@ blockquote {
   border-bottom: 1px solid var(--border-color);
 }
 
-// Buttons
+// Dark buttons
 button, .btn {
   background-color: var(--primary);
-  color: white;
+  color: #2a2a2a;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s ease;
-  font-weight: 400;
+  font-weight: 500;
   
   &:hover {
     background-color: var(--secondary);
   }
 }
 
-// Text hierarchy
+// Text hierarchy for dark theme
 .text-muted,
 .quarto-secondary {
   color: var(--text-muted) !important;
@@ -349,8 +352,8 @@ p {
   line-height: 1.65;
 }
 
-// Gentle emphasis
+// Dark emphasis
 strong, b {
   font-weight: 600;
-  color: #424242;
+  color: var(--text-bright);
 }
