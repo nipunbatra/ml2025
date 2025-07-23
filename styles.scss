@@ -6,55 +6,54 @@
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
 $font-family-monospace: "JetBrains Mono", "Monaco", "Consolas", monospace;
 
-// Actual Seoul256 dark theme colors
-$primary: #85add4;           // Seoul256 blue
-$secondary: #87af87;         // Seoul256 bright green
-$accent: #d8af5f;           // Seoul256 yellow
-$warning: #d68787;          // Seoul256 red
-$danger: #d75f87;           // Seoul256 bright red
-$info: #87afaf;             // Seoul256 cyan
-$success: #5f865f;          // Seoul256 green
+// Clean, professional colors inspired by nipunbatra.github.io
+$primary: #2563eb;           // Clean blue
+$secondary: #64748b;         // Slate gray
+$accent: #059669;           // Green
+$warning: #d97706;          // Orange
+$danger: #dc2626;           // Red
+$info: #0ea5e9;             // Sky blue
 
-// Seoul256 base colors
-$body-bg: #3a3a3a;          // Seoul256 background
-$body-color: #d0d0d0;       // Seoul256 foreground
-$text-muted: #626262;       // Seoul256 bright black
+// Clean, readable background and text
+$body-bg: #ffffff;          // Pure white background
+$body-color: #374151;       // Dark gray text (good contrast but not harsh)
+$text-muted: #6b7280;       // Medium gray for secondary text
 
 // Navigation
-$navbar-bg: #3a3a3a;
-$navbar-brand-color: #d0d0d0;
-$navbar-nav-link-color: #d0d0d0;
+$navbar-bg: #ffffff;
+$navbar-brand-color: #1f2937;
+$navbar-nav-link-color: #374151;
 $navbar-nav-link-hover-color: $primary;
 
 // Links
 $link-color: $primary;
-$link-hover-color: $secondary;
+$link-hover-color: #1d4ed8;
 $link-decoration: none;
 
 /*-- scss:rules --*/
 
-// CSS Custom Properties for Seoul256 dark theme
+// CSS Custom Properties
 :root {
-  --bg-color: #3a3a3a;
-  --text-color: #d0d0d0;
-  --text-muted: #626262;
-  --text-bright: #ffffff;
-  --primary: #85add4;
-  --secondary: #87af87;
-  --accent: #d8af5f;
-  --warning: #d68787;
-  --border-color: #4e4e4e;
-  --card-bg: #424242;
+  --bg-color: #ffffff;
+  --text-color: #374151;
+  --text-muted: #6b7280;
+  --text-dark: #1f2937;
+  --primary: #2563eb;
+  --secondary: #64748b;
+  --accent: #059669;
+  --border-color: #e5e7eb;
+  --card-bg: #f9fafb;
 }
 
-// Global styles
+// Global styles with thinner fonts
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: $font-family-sans-serif;
-  line-height: 1.65;
+  font-weight: 400; // Thinner base font weight
+  line-height: 1.6;
   color: var(--text-color);
   background-color: var(--bg-color);
   font-size: 16px;
@@ -85,17 +84,17 @@ main.content {
   display: none !important;
 }
 
-// Dark navigation
+// Clean navigation
 .navbar {
   border-bottom: 1px solid var(--border-color);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   padding: 0.75rem 1rem;
   background-color: var(--bg-color) !important;
   
   .navbar-brand {
-    font-weight: 600;
+    font-weight: 600; // Slightly thinner than before
     font-size: 1.5rem;
-    color: var(--text-color) !important;
+    color: var(--text-dark) !important;
     
     img {
       height: 40px;
@@ -107,7 +106,7 @@ main.content {
   }
   
   .navbar-nav .nav-link {
-    font-weight: 400;
+    font-weight: 400; // Thinner font weight
     margin: 0 0.25rem;
     padding: 0.5rem 0.75rem !important;
     border-radius: 6px;
@@ -115,18 +114,18 @@ main.content {
     color: var(--text-color) !important;
     
     &:hover {
-      background-color: rgba(133, 173, 212, 0.1);
+      background-color: rgba(37, 99, 235, 0.05);
       color: var(--primary) !important;
     }
   }
 }
 
-// Dark headings
+// Clean headings with thinner fonts
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-weight: 500; // Thinner than before (was 600)
   line-height: 1.3;
   margin-bottom: 1rem;
-  color: var(--text-bright);
+  color: var(--text-dark);
 }
 
 h1 {
@@ -134,65 +133,66 @@ h1 {
   margin-bottom: 1.5rem;
   border-bottom: 2px solid var(--primary);
   padding-bottom: 0.5rem;
+  font-weight: 600; // Slightly heavier for main title
 }
 
 h2 {
   font-size: 1.75rem;
   margin-top: 2rem;
-  color: #e0e0e0;
+  color: var(--text-dark);
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #d8d8d8;
+  color: var(--text-color);
 }
 
-// Dark callout boxes
+// Clean callout boxes
 .callout {
-  border-radius: 6px;
+  border-radius: 8px;
   border: 1px solid var(--border-color);
   margin: 1.5rem 0;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   background-color: var(--card-bg);
 }
 
 .callout.callout-tip,
 .callout.callout-note {
-  border-left: 3px solid var(--primary);
+  border-left: 4px solid var(--primary);
   
   .callout-header {
-    background-color: rgba(133, 173, 212, 0.1);
+    background-color: rgba(37, 99, 235, 0.05);
     color: var(--primary);
     font-weight: 500;
   }
 }
 
 .callout.callout-warning {
-  border-left: 3px solid var(--accent);
+  border-left: 4px solid var(--warning);
   
   .callout-header {
-    background-color: rgba(216, 175, 95, 0.1);
-    color: var(--accent);
+    background-color: rgba(217, 119, 6, 0.05);
+    color: var(--warning);
     font-weight: 500;
   }
 }
 
-// Dark tables
+// Clean tables
 table {
   border-collapse: collapse;
   margin: 1.5rem 0;
   width: 100%;
-  background: var(--card-bg);
-  border-radius: 6px;
+  background: white;
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid var(--border-color);
 }
 
 table th {
-  background-color: #4a4a4a;
-  color: var(--text-bright);
-  font-weight: 500;
+  background-color: var(--card-bg);
+  color: var(--text-dark);
+  font-weight: 500; // Thinner header font
   padding: 0.75rem 1rem;
   text-align: left !important;
   border-bottom: 1px solid var(--border-color);
@@ -200,34 +200,34 @@ table th {
 
 table td {
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #484848;
+  border-bottom: 1px solid #f3f4f6;
   text-align: left !important;
   color: var(--text-color);
 }
 
 table tr:hover {
-  background-color: rgba(133, 173, 212, 0.05);
+  background-color: rgba(37, 99, 235, 0.02);
 }
 
-// Dark code styling
+// Clean code styling
 code {
-  background-color: #484848;
-  color: #d7afaf;
+  background-color: #f3f4f6;
+  color: #7c2d12;
   padding: 0.125rem 0.3rem;
-  border-radius: 3px;
-  font-size: 0.9em;
+  border-radius: 4px;
+  font-size: 0.875em;
   font-family: $font-family-monospace;
+  font-weight: 400;
 }
 
 pre {
-  background-color: #2a2a2a;
-  color: #d0d0d0;
+  background-color: #1f2937;
+  color: #f9fafb;
   padding: 1rem;
-  border-radius: 6px;
+  border-radius: 8px;
   overflow-x: auto;
   margin: 1rem 0;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
-  border: 1px solid #4e4e4e;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 pre code {
@@ -236,24 +236,25 @@ pre code {
   padding: 0;
 }
 
-// Dark links
+// Clean links
 a {
   color: var(--primary);
   text-decoration: none;
   transition: color 0.15s ease-in-out;
+  font-weight: 400; // Thinner font weight
   
   &:hover {
-    color: var(--secondary);
+    color: #1d4ed8;
     text-decoration: underline;
   }
 }
 
-// Images with dark theme
+// Images
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1);
 }
 
 // Remove logo styling issues
@@ -264,7 +265,7 @@ img {
   padding: 0 !important;
 }
 
-// Dark lists
+// Lists
 ul, ol {
   padding-left: 1.5rem;
   margin: 1rem 0;
@@ -275,13 +276,13 @@ li {
   color: var(--text-color);
 }
 
-// Dark blockquotes
+// Clean blockquotes
 blockquote {
-  border-left: 3px solid var(--primary);
+  border-left: 4px solid var(--primary);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  background-color: rgba(133, 173, 212, 0.05);
-  border-radius: 0 4px 4px 0;
+  background-color: rgba(37, 99, 235, 0.02);
+  border-radius: 0 8px 8px 0;
   font-style: italic;
   color: var(--text-color);
 }
@@ -293,23 +294,23 @@ blockquote {
   border-bottom: 1px solid var(--border-color);
 }
 
-// Dark buttons
+// Clean buttons
 button, .btn {
   background-color: var(--primary);
-  color: #2a2a2a;
+  color: white;
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s ease;
-  font-weight: 500;
+  font-weight: 400; // Thinner font weight
   
   &:hover {
-    background-color: var(--secondary);
+    background-color: #1d4ed8;
   }
 }
 
-// Text hierarchy for dark theme
+// Text hierarchy
 .text-muted,
 .quarto-secondary {
   color: var(--text-muted) !important;
@@ -349,11 +350,11 @@ html {
 // Better paragraph spacing
 p {
   margin-bottom: 1rem;
-  line-height: 1.65;
+  line-height: 1.6;
 }
 
-// Dark emphasis
+// Clean emphasis
 strong, b {
-  font-weight: 600;
-  color: var(--text-bright);
+  font-weight: 500; // Thinner bold weight
+  color: var(--text-dark);
 }
