@@ -4,11 +4,15 @@ subtitle: "August 2025 • IIT Gandhinagar"
 image: images/logo.jpeg
 ---
 
-::: {.hero-banner}
-![](images/logo.jpeg){width=200 fig-align="center"}
+::: {.grid}
+::: {.g-col-4}
+![](images/logo.jpeg){width=100%}
+:::
 
+::: {.g-col-8}
 ## Welcome to ES 335: Machine Learning
-
+:::
+:::
 
 ::: {.text-center}
 ### [Join our Slack workspace](https://join.slack.com/t/es335-2025/shared_invite/zt-3a7gi76q8-chqUpxbIdVGaKCsDzIxYcw) for course announcements and discussions
