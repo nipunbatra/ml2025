@@ -19,7 +19,6 @@ The content below is from **2024** and is provided for **reference only**. We ma
 
 | Lecture # |    Date     | Topic (Slides)                                  | Notebooks |  Reading |
 |:---------:|:-----------:|:------------------------------------------------|:---------:|:---------|
-| :-------: | :---------: | :---------------------------------------------- | :-------: |  ------- |
 |     0     | 25 Jul| [Pre-requisite quiz released](exams/prereq.qmd) |           |          |
 |     1     |    2 Aug    | [Introduction and Logistics](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml.pdf)                      |      [Transcription and local LLMs](https://nipunbatra.github.io/ml-teaching/notebooks/transcript.html), [Segmentation and Localization](https://nipunbatra.github.io/ml-teaching/notebooks/object-detection-segmentation.html), [Prompt to Image](https://nipunbatra.github.io/ml-teaching/notebooks/text_to_image.html)     |            |
 | 2| 6 Aug| [Convention, Metrics, Classification, Regression](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy_convention.pdf)|[Rule based vs ML](https://nipunbatra.github.io/ml-teaching/notebooks/rule-based-vs-ml.html), [Confusion Matrix](https://nipunbatra.github.io/ml-teaching/notebooks/confusion-mnist.html), [Dummy baselines](https://nipunbatra.github.io/ml-teaching/notebooks/dummy-baselines.html)||
