@@ -2,6 +2,11 @@
 title: "Frequently Asked Questions"
 ---
 
+::: {.callout-warning}
+## Notice
+The FAQ content below is from **2024** and is provided for **reference only**. Course policies, procedures, and answers may change for 2025. Please check back for updated information.
+:::
+
 ## Projects
 
 ::: {.callout-note collapse="true"}

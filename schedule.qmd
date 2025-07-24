@@ -2,8 +2,13 @@
 title: "Schedule"
 ---
 
-::: {.callout-tip}
-## Summary
+::: {.callout-warning}
+## Notice
+The content below is from **2024** and is provided for **reference only**. We may change the schedule, topics, and materials for 2025. Please check back for updates.
+:::
+
+::: {.callout-note}
+## Course Materials
 
 * [Github repo containing source code for lectures and notebooks](https://github.com/nipunbatra/ml-teaching)
 * [PDF Lecture slides](https://nipunbatra.github.io/ml-teaching/slides.html)
@@ -13,6 +18,7 @@ title: "Schedule"
 
 
 | Lecture # |    Date     | Topic (Slides)                                  | Notebooks |  Reading |
+|:---------:|:-----------:|:------------------------------------------------|:---------:|:---------|
 | :-------: | :---------: | :---------------------------------------------- | :-------: |  ------- |
 |     0     | 25 Jul| [Pre-requisite quiz released](exams/prereq.qmd) |           |          |
 |     1     |    2 Aug    | [Introduction and Logistics](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml.pdf)                      |      [Transcription and local LLMs](https://nipunbatra.github.io/ml-teaching/notebooks/transcript.html), [Segmentation and Localization](https://nipunbatra.github.io/ml-teaching/notebooks/object-detection-segmentation.html), [Prompt to Image](https://nipunbatra.github.io/ml-teaching/notebooks/text_to_image.html)     |            |

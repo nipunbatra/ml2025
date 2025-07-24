@@ -2,6 +2,11 @@
 title: "Important Deadlines"
 ---
 
+::: {.callout-warning}
+## Notice
+The deadlines below are **tentative for 2025** and subject to change. Some dates may be based on 2024 reference material. Please check Slack and course announcements for confirmed deadlines.
+:::
+
 ## Course Timeline
 
 | Date | Event |

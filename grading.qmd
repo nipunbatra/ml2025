@@ -2,6 +2,11 @@
 title: "Grading Policy"
 ---
 
+::: {.callout-warning}
+## Notice
+The grading policy below is from **2024** and is provided for **reference only**. We may update the grading structure, weights, and policies for 2025. Please check back for the final 2025 grading policy.
+:::
+
 ## Grade Distribution
 
 ### Quizzes: 54%

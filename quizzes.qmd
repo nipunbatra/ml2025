@@ -6,3 +6,8 @@ listing:
   sort: "date"  
 ---
 
+::: {.callout-warning}
+## Notice
+The quiz information below may be from **2024** and is provided for **reference only**. Quiz format, dates, and content may change for 2025. Please check Slack and course announcements for current quiz information.
+:::
+
