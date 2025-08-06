@@ -49,7 +49,7 @@ Office: 13/401C
 ::: {.callout-warning}
 ## Prerequisite Exam
 
-The [prerequisite exam](exams/prereq.qmd) must be submitted by **August 6th, 2025 at 9:00 PM**.  
+The [prerequisite exam](exams/prereq.qmd) must be submitted by **August 10th, 2025 at 10:00 PM**.  
 
 - The exam is **open book** and **open internet**
 - Submission instructions are provided within the exam

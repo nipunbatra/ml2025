@@ -2,10 +2,6 @@
 title: "Grading Policy"
 ---
 
-::: {.callout-warning}
-## Notice
-The grading policy below is from **2024** and is provided for **reference only**. We may update the grading structure, weights, and policies for 2025. Please check back for the final 2025 grading policy.
-:::
 
 ## Grade Distribution
 
@@ -47,24 +43,36 @@ The grading policy below is from **2024** and is provided for **reference only**
 ### Attendance: 6%
 
 | Absences | Grade |
-|----------|-------|
-| ≤ 3      | 6%    |
-| 4-5      | 5%    |
-| 6-7      | 4%    |
-| 8-9      | 3%    |
-| 10-11    | 2%    |
-| ≥ 12     | 0%    |
+| -------- | ----- |
+| ≤ 4      | 6%    |
+| 5, 6     | 5%    |
+| 7, 8     | 4%    |
+| 9, 10    | 1%    |
+| > 10     | 0%    |
+
+
+It is the student's responsibility to ensure attendance is recorded on the biometric system. If attendance is not recorded, it will be considered as absent.
 
 ::: {.callout-tip}
 ## Leave Requests
-[Submit leave form](https://docs.google.com/forms/d/1efg5pt10GssAmyxIF83reFc5rQslRH4mI-yng7XXZ78/edit) and email the TAs to check status.
+There is no leave request system. If you miss a class, it will count as an absence. No need to inform the instructor or provide medical certificates, etc. 
+
+In case a student has to miss 4 or more classes in a row due to an emergency, they can discuss with the instructor for special consideration.
 :::
 
 ---
 
 ## Bonus Points (Above 100%)
+### Class Participation
+- **Up to 1%** for answering questions in class
+- **0.5% per question** (maximum 2 questions)
+- At instructor's discretion
 
-### Kaggle Competition Bonus
+
+
+::: {.callout-warning}
+## Notice
+There is a possibiility of a Kaggle competition during the semester. If it happens, it will be announced in class and on Slack. It will be bonus points only, not mandatory.
 *Subject to change based on competition availability*
 
 | Performance | Bonus |
@@ -75,11 +83,9 @@ The grading policy below is from **2024** and is provided for **reference only**
 | 90th percentile | 2.0% |
 | 95th percentile | 2.5% |
 | **Top 3** | **3.0%** |
+:::
 
-### Class Participation
-- **Up to 1.5%** for answering questions in class
-- **0.5% per question** (maximum 3 questions)
-- At instructor's discretion
+
 
 
 
