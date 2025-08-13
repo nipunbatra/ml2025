@@ -2,10 +2,6 @@
 title: "Schedule"
 ---
 
-::: {.callout-warning}
-## Notice
-The content below is from **2024** and is provided for **reference only**. We may change the schedule, topics, and materials for 2025. Please check back for updates.
-:::
 
 ::: {.callout-note}
 ## Course Materials
@@ -20,9 +16,11 @@ The content below is from **2024** and is provided for **reference only**. We ma
 | Lecture # |    Date     | Topic (Slides)                                  | Notebooks |  Reading |
 |:---------:|:-----------:|:------------------------------------------------|:---------:|:---------|
 |     0     | 25 Jul| [Pre-requisite quiz released](exams/prereq.qmd) |           |          |
-|     1     |    2 Aug    | [Introduction and Logistics](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml.pdf)                      |      [Transcription and local LLMs](https://nipunbatra.github.io/ml-teaching/notebooks/transcript.html), [Segmentation and Localization](https://nipunbatra.github.io/ml-teaching/notebooks/object-detection-segmentation.html), [Prompt to Image](https://nipunbatra.github.io/ml-teaching/notebooks/text_to_image.html)     |            |
-| 2| 6 Aug| [Convention, Metrics, Classification, Regression](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy_convention.pdf)|[Rule based vs ML](https://nipunbatra.github.io/ml-teaching/notebooks/rule-based-vs-ml.html), [Confusion Matrix](https://nipunbatra.github.io/ml-teaching/notebooks/confusion-mnist.html), [Dummy baselines](https://nipunbatra.github.io/ml-teaching/notebooks/dummy-baselines.html)||
-| 3| 7 Aug| [Decision Trees 1](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees.pdf)|[Entropy](https://nipunbatra.github.io/ml-teaching/notebooks/entropy.html), [Decision Trees Real Output](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-output.html), [DT Real Input Discrete Output](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-input-discrete-output.html)||
+|     1     |    6 Aug    | [Introduction and Logistics](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf)                      |      [Transcription and local LLMs](https://nipunbatra.github.io/ml-teaching/notebooks/transcript.html), [Segmentation and Localization](https://nipunbatra.github.io/ml-teaching/notebooks/object-detection-segmentation.html), [Prompt to Image](https://nipunbatra.github.io/ml-teaching/notebooks/text_to_image.html)     |            |
+| 2| 7 Aug| [Convention, Metrics, Classification, Regression](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy-convention.pdf)|[Rule based vs ML](https://nipunbatra.github.io/ml-teaching/notebooks/rule-based-vs-ml.html), [Confusion Matrix](https://nipunbatra.github.io/ml-teaching/notebooks/confusion-mnist.html), [Dummy baselines](https://nipunbatra.github.io/ml-teaching/notebooks/dummy-baselines.html)||
+| 3| 8 Aug| [Decision Trees 1](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees.pdf)|[Entropy](https://nipunbatra.github.io/ml-teaching/notebooks/entropy.html), [Decision Trees Real Output](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-output.html), [DT Real Input Discrete Output](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-input-discrete-output.html)||
+
+<!--
 | 4| 9 Aug| [Decision Trees 2, Bias and Variance](https://nipunbatra.github.io/ml-teaching/supervised/slides/bias-variance.pdf)|[Bias variance](https://nipunbatra.github.io/ml-teaching/notebooks/bias-variance.html), [Decision Trees + Overfitting, Underfitting](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-input-real-output.html)| |
 |5| 13 Aug| Tutorial on Numpy, Pandas, Classes, [Cross-validation](https://nipunbatra.github.io/ml-teaching/supervised/slides/cross-validation.pdf)| [Numpy, Pandas, Entropy](https://nipunbatra.github.io/ml-teaching/notebooks/numpy-pandas-basics.html), [Classes and Trees](https://nipunbatra.github.io/ml-teaching/notebooks/classes-trees.html), [Cross-validation and tuning hyperparameters](https://nipunbatra.github.io/ml-teaching/notebooks/hyperparams-experiments.html)||
 |6| 16 Aug| [Lecture on Random Forests](https://nipunbatra.github.io/ml-teaching/supervised/slides/ensemble.pdf)|[Notebook on Random Forests feature importance from scratch](https://nipunbatra.github.io/ml-teaching/notebooks/ensemble-feature-importance.html)||
@@ -94,6 +92,12 @@ The content below is from **2024** and is provided for **reference only**. We ma
 37| 15 April| SVM - III (QP, Kernels as similarity)|[Recording](https://www.youtube.com/watch?v=BLj0hhT-tL4)|[Notebook on QP](https://nipunbatra.github.io/ml-teaching/notebooks/svm-cvxopt.html), [Notebook on kernels-1](https://nipunbatra.github.io/ml-teaching/notebooks/svm-kernel-understanding.html)| |    
 38| 17 April| [SVM - IV (Kernel understanding, Soft Margin)](https://nipunbatra.github.io/ml-teaching/supervised/slides/svm-soft-margin.pdf)|[Recording](https://www.youtube.com/watch?v=QaYpHAc5N-A&list=PLftoLyLEwECDqanAL7LkZNnZG9VdNCiJF&index=32)|[Notebook on kernel understanding](https://nipunbatra.github.io/ml-teaching/notebooks/svm-kernel.html), [Notebook on soft margin](https://nipunbatra.github.io/ml-teaching/notebooks/svm-soft-margin.html)| |
 39| 19 April| Overall revision|
+
+
+-->
+
+
+<!--
 
 27| 18 March| [Naive Bayes]| [Recording]()|[Notebook]()| |
 28| 20 March| [KNN] |[Recording]()|[Notebook]()| |
