@@ -28,7 +28,9 @@ title: "Schedule"
 | 10| 28 Aug| [Linear Regression 2](https://nipunbatra.github.io/ml-teaching/supervised/slides/linear-regression-handout.pdf){target="_blank"} | [Geometric Linear Regression](https://nipunbatra.github.io/ml-teaching/notebooks/geometric-linear-regression.html){target="_blank"},[Basis Expansion](https://nipunbatra.github.io/ml-teaching/notebooks/basis.html){target="_blank"},[Basis Expansion 2](https://nipunbatra.github.io/ml-teaching/notebooks/basis2.html){target="_blank"}, [Dummy Variables](https://nipunbatra.github.io/ml-teaching/notebooks/dummy-variables-multi-colinearity.html){target="_blank"} ||
 | 11| 29 Aug| [Gradient Descent](https://nipunbatra.github.io/ml-teaching/optimization/slides/gradient-descent-handout.pdf){target="_blank"} | [Taylor's series](https://nipunbatra.github.io/ml-teaching/notebooks/taylor.html){target="_blank"}, [Contours & Gradient Descent](https://nipunbatra.github.io/ml-teaching/notebooks/contour.html){target="_blank"} ||
 | 12| 3 Sep| [Movie recommendation & Matrix Factorization](https://nipunbatra.github.io/ml-teaching/supervised/slides/movie-recommendation.pdf)|[Movie Recommendation](https://nipunbatra.github.io/ml-teaching/notebooks/movie-recommendation-knn-mf.html) ||
-
+| 13| 10 Sep| [Ridge Regression](https://nipunbatra.github.io/ml-teaching/supervised/slides/ridge-regression-handout.pdf)|[Ridge Regression](https://nipunbatra.github.io/ml-teaching/notebooks/ridge.html)||
+| 14| 11 Sep| [Lasso Regression](https://nipunbatra.github.io/ml-teaching/supervised/slides/lasso-regression-handout.pdf)|[Lasso Regression](https://nipunbatra.github.io/ml-teaching/notebooks/lasso-regression.html)||
+| 15| 12 Sep| [Constrained Optimization](https://nipunbatra.github.io/ml2022/lectures/ml-maths-3.pdf)|||
 
 <!--
 | 4| 9 Aug| [Decision Trees 2, Bias and Variance](https://nipunbatra.github.io/ml-teaching/supervised/slides/bias-variance.pdf)|[Bias variance](https://nipunbatra.github.io/ml-teaching/notebooks/bias-variance.html), [Decision Trees + Overfitting, Underfitting](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-input-real-output.html)| |
