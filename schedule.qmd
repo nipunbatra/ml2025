@@ -39,9 +39,22 @@ title: "Schedule"
 | 21| 16 Oct| [Automatic Differentiation](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/autograd.pdf){target="_blank"} | [Notebook on Autodiff](https://nipunbatra.github.io/ml-teaching/notebooks/autodiff.html){target="_blank"} ||
 | 22| 17 Oct|| [Autograd from scratch](https://nipunbatra.github.io/ml-teaching/notebooks/autograd-from-scratch.html){target="_blank"} ||
 | 23| 22 Oct| [Next Token Prediction](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/next-token-prediction.pdf){target="_blank"}| [Notebook](https://nipunbatra.github.io/ml-teaching/notebooks/names.html){target="_blank"}, [Streamlit App](https://gpt-demo.streamlit.app/){target="_blank"}||
-| 24| 23 Oct| [CNN - I](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/cnn-1d.pdf){target="_blank"} | [Notebook 1](https://nipunbatra.github.io/ml-teaching/notebooks/1d-cnn.html){target="_blank"}, [Notebook 2 on edge detection](https://nipunbatra.github.io/ml-teaching/notebooks/cnn-edge.html){target="_blank"}, [Notebook 3 on LeNet](https://nipunbatra.github.io/ml-teaching/notebooks/cnn.html){target="_blank"}
+| 24| 23 Oct| [CNN - I](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/cnn-1d.pdf){target="_blank"} | [Notebook 1](https://nipunbatra.github.io/ml-teaching/notebooks/1d-cnn.html){target="_blank"}, [Notebook 2 on edge detection](https://nipunbatra.github.io/ml-teaching/notebooks/cnn-edge.html){target="_blank"}, [Notebook 3 on LeNet](https://nipunbatra.github.io/ml-teaching/notebooks/cnn.html){target="_blank"}||
 
 
+
+| Quiz # |    Date     | Solution PDF                                  |
+|:--:|:--:|:-----|
+| 1  | 4 Sep  | [Quiz 1 Solution](quizzes/ml_2025_q1_TA.pdf){target="_blank"} |
+| 2  | 25 Sep | [Quiz 2 Solution](quizzes/ml_2025_q2_TA.pdf){target="_blank"}|
+| 3  | 24 Oct  | [Quiz 3 Solution](quizzes/ml_2025_quiz3_TA.pdf){target="_blank"}|
+
+
+| Assignment # |    Handout Date     | Submission Deadline | Assignment Link |
+|:--:|:--:|:--:|:-----|
+| 1  | 19 Aug  | 28 Aug  | [Assignment 1](https://github.com/vinayakrana/es335-25-fall-assignment-1){target="_blank"} |
+| 2  | 30 Sep | 14 Oct | [Assignment 2](https://github.com/AyushShrivstava/es335-assignment2){target="_blank"}|
+| 3  | 17 Oct | 4 Nov | [Assignment 3](https://docs.google.com/document/d/1zZoU8gErbo23iNr65FcNBP56VyoJMUgMEBZKrMr7ljc/edit?tab=t.0#heading=h.l4s41a30fdw){target="_blank"}|
 <!-- | 20| 15 Oct| [MLP 1](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/mlp.pdf){target="_blank"} ||| -->
 <!--
 | 4| 9 Aug| [Decision Trees 2, Bias and Variance](https://nipunbatra.github.io/ml-teaching/supervised/slides/bias-variance.pdf)|[Bias variance](https://nipunbatra.github.io/ml-teaching/notebooks/bias-variance.html), [Decision Trees + Overfitting, Underfitting](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-input-real-output.html)| |
