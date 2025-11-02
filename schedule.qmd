@@ -13,10 +13,12 @@ title: "Schedule"
 :::
 
 
+
 | Lecture # |    Date     | Topic (Slides) | Notebooks |
-|:---:|:------------:|:-------|:------------------------------------------:|
-|     0     | 25 Jul| [Pre-requisite quiz released](exams/prereq.qmd){target="_blank"} |           |
-|     1     |    6 Aug    | [Introduction and Logistics](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf){target="_blank"}                     |      [Transcription and local LLMs](https://nipunbatra.github.io/ml-teaching/notebooks/transcript.html){target="_blank"}, [Segmentation and Localization](https://nipunbatra.github.io/ml-teaching/notebooks/object-detection-segmentation.html){target="_blank"}, [Prompt to Image](https://nipunbatra.github.io/ml-teaching/notebooks/text_to_image.html){target="_blank"}     |
+|-----------|---------------|----------|------------------------------------------|
+|<img width=200px/>|<img width=300px/>|<img width=500px/>|<img width=500px/>|
+|  0 | 25 Jul| [Pre-requisite quiz released](exams/prereq.qmd){target="_blank"} |           |
+|  1 |    6 Aug    | [Introduction and Logistics](https://nipunbatra.github.io/ml-teaching/basics/slides/1-introduction-ml-2025.pdf){target="_blank"}                     |      [Transcription and local LLMs](https://nipunbatra.github.io/ml-teaching/notebooks/transcript.html){target="_blank"}, [Segmentation and Localization](https://nipunbatra.github.io/ml-teaching/notebooks/object-detection-segmentation.html){target="_blank"}, [Prompt to Image](https://nipunbatra.github.io/ml-teaching/notebooks/text_to_image.html){target="_blank"}     |
 | 2| 7 Aug| [Convention, Metrics, Classification, Regression](https://nipunbatra.github.io/ml-teaching/basics/slides/accuracy-convention-handout.pdf){target="_blank"}|[Rule based vs ML](https://nipunbatra.github.io/ml-teaching/notebooks/rule-based-vs-ml.html){target="_blank"}, [Confusion Matrix](https://nipunbatra.github.io/ml-teaching/notebooks/confusion-mnist.html){target="_blank"}, [Dummy baselines](https://nipunbatra.github.io/ml-teaching/notebooks/dummy-baselines.html){target="_blank"}|
 | 3| 8 Aug| [Decision Trees 1](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees-handout.pdf){target="_blank"}|[Entropy](https://nipunbatra.github.io/ml-teaching/notebooks/entropy.html){target="_blank"}, [Decision Trees Real Output](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-output.html){target="_blank"}, [DT Real Input Discrete Output](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-input-discrete-output.html){target="_blank"}|
 | 4| 13 Aug| [Decision Trees 2](https://nipunbatra.github.io/ml-teaching/supervised/slides/decision-trees-handout.pdf){target="_blank"}|[Decision Trees + Overfitting, Underfitting](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-input-real-output.html){target="_blank"}|
@@ -41,10 +43,10 @@ title: "Schedule"
 | 23| 22 Oct| [Next Token Prediction](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/next-token-prediction.pdf){target="_blank"}| [Notebook](https://nipunbatra.github.io/ml-teaching/notebooks/names.html){target="_blank"}, [Streamlit App](https://gpt-demo.streamlit.app/){target="_blank"}|
 | 24| 23 Oct| [CNN - I](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/cnn-1d.pdf){target="_blank"} | [Notebook 1](https://nipunbatra.github.io/ml-teaching/notebooks/1d-cnn.html){target="_blank"}, [Notebook 2 on edge detection](https://nipunbatra.github.io/ml-teaching/notebooks/cnn-edge.html){target="_blank"}, [Notebook 3 on LeNet](https://nipunbatra.github.io/ml-teaching/notebooks/cnn.html){target="_blank"}, Streamlit Apps: [Convolution](https://convolution-viz.streamlit.app/){target="_blank"}, [Convolution Multi-Channel](https://convolution-viz-multi-channel.streamlit.app/){target="_blank"}|
 | 25| 24 Oct| [Gradcam, Equivariance and Invariance](https://www.doc.ic.ac.uk/~bkainz/teaching/DL/notes/equivariance.pdf){target="_blank"} | Streamlit Apps: [Gradcam](https://gradcam-demo.streamlit.app/){target="_blank"}, [Gradcam Enhanced](https://gradcam-enhanced.streamlit.app/){target="_blank"}|
-| 26| 24 Oct| HuggingFace Spaces: [DINOv3 Visual Fashion Search](https://huggingface.co/spaces/NeerjaK/dinov3-visual-fashion-search){target="_blank"}, [DINOv3 Patch Similarity Visualizer](https://huggingface.co/spaces/NeerjaK/DinoV3-Patch-Similarity-Visualiser){target="_blank"} | [Classification using DINOv3 Notebook](){target="_blank"}, [Regression using DINOv3 Notebook](){target="_blank"}, [DINOv3 Data](https://drive.google.com/drive/u/1/folders/1oISTKsa0JCn5pnmlFwiRZVKp93TQYPxC){target="_blank"} |
+| 26| 24 Oct| HF Spaces: [DINOv3 Visual Fashion Search](https://huggingface.co/spaces/NeerjaK/dinov3-visual-fashion-search){target="_blank"}, [DINOv3 Patch Similarity Visualizer](https://huggingface.co/spaces/NeerjaK/DinoV3-Patch-Similarity-Visualiser){target="_blank"} | [Classification using DINOv3 Notebook](https://nipunbatra.github.io/ml-teaching/notebooks/dinov3-classification.html){target="_blank"}, [Regression using DINOv3 Notebook](https://nipunbatra.github.io/ml-teaching/notebooks/dinov3-regression.html){target="_blank"}, [DINOv3 Data](https://drive.google.com/drive/u/1/folders/1oISTKsa0JCn5pnmlFwiRZVKp93TQYPxC){target="_blank"} |
 | 27| 29 Oct| [Unsupervised Learning - Clustering](https://nipunbatra.github.io/ml-teaching/unsupervised/slides/clustering-lecture.pdf){target="_blank"} | Streamlit Apps: [Simple Image Clustering](https://simple-image-clustering.streamlit.app/){target="_blank"}, [Image Clustering Demo](https://image-clustering-demo.streamlit.app/){target="_blank"}, [Document Clustering](https://document-clustering-demo.streamlit.app/){target="_blank"} |
-| 28| 30 Oct| [PCA Tutorial](){target="_blank"} | [Notebook](){target="_blank"} |
-| 29| 31 Oct| [Reinforcement learning](https://nipunbatra.github.io/ml-teaching/reinforcement-learning/slides/rl.pdf){target="_blank"}|[Streamlit App](){target="_blank"} |
+| 28| 30 Oct| [PCA Tutorial](https://nipunbatra.github.io/ml-teaching/unsupervised/slides/pca.pdf){target="_blank"} | [Notebook](https://colab.research.google.com/drive/1cSOn7kbuFTp8esuAy18XEU5o2YTwt40c#scrollTo=lb2QT2brrTfh){target="_blank"} |
+| 29| 31 Oct| [Reinforcement learning](https://nipunbatra.github.io/ml-teaching/advanced/slides/rl.pdf){target="_blank"}|Streamlit Apps: [Flappy Bird Demo](https://github.com/nipunbatra/ml-teaching/tree/master/apps/flappy-rl-demo){target="_blank"}, [RL Demo](https://github.com/nipunbatra/ml-teaching/tree/master/apps/rl-demo){target="_blank"}, [RL Exploration](https://github.com/nipunbatra/ml-teaching/tree/master/apps/rl-exploration){target="_blank"} |
 
 ---
 
@@ -61,6 +63,9 @@ title: "Schedule"
 | 1  | 19 Aug  | 28 Aug  | [Assignment 1](https://github.com/vinayakrana/es335-25-fall-assignment-1){target="_blank"} |
 | 2  | 30 Sep | 14 Oct | [Assignment 2](https://github.com/AyushShrivstava/es335-assignment2){target="_blank"}|
 | 3  | 17 Oct | 4 Nov | [Assignment 3](https://docs.google.com/document/d/1zZoU8gErbo23iNr65FcNBP56VyoJMUgMEBZKrMr7ljc/edit?tab=t.0#heading=h.l4s41a30fdw){target="_blank"}|
+
+
+
 <!-- | 20| 15 Oct| [MLP 1](https://nipunbatra.github.io/ml-teaching/neural-networks/slides/mlp.pdf){target="_blank"} ||| -->
 <!--
 | 4| 9 Aug| [Decision Trees 2, Bias and Variance](https://nipunbatra.github.io/ml-teaching/supervised/slides/bias-variance.pdf)|[Bias variance](https://nipunbatra.github.io/ml-teaching/notebooks/bias-variance.html), [Decision Trees + Overfitting, Underfitting](https://nipunbatra.github.io/ml-teaching/notebooks/decision-tree-real-input-real-output.html)| |
