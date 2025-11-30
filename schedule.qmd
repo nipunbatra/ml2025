@@ -59,6 +59,7 @@ title: "Schedule"
 | 1  | 4 Sep  | [Quiz 1 Solution](quizzes/ml_2025_q1_TA.pdf){target="_blank"} |
 | 2  | 25 Sep | [Quiz 2 Solution](quizzes/ml_2025_q2_TA.pdf){target="_blank"}|
 | 3  | 24 Oct  | [Quiz 3 Solution](quizzes/ml_2025_quiz3_TA.pdf){target="_blank"}|
+| 4  | 28 Nov  | [Quiz 4 Solution](quizzes/ml_2025_quiz4_TA_copy.pdf){target="_blank"}|
 
 ---
 
