@@ -1,30 +1,25 @@
 ---
-title: "Important Deadlines"
+title: "Deadlines"
 ---
 
 ::: {.callout-warning}
-## Notice
-The deadlines below are **tentative for 2025** and subject to change. Some dates may be based on 2024 reference material. Please check Slack and course announcements for confirmed deadlines.
+## Tentative
+These dates are tentative and may change; some are based on the 2024 course. Slack and class announcements have
+the confirmed dates.
 :::
-
-## Course Timeline
 
 | Date | Event |
-|------|-------|
-| **August 6** | Prerequisite exam due |
-| **August 13** | Add/Drop period ends |
-| **August 24** | First assignment due |
-| **September 1** | Second assignment released |
-| **September 2** | First quiz |
-| **September 15** | Second assignment due |
-| **September 27 - October 4** | Second quiz (mid-semester) |
-| **October 25** | Third assignment due |
-| **October 29** | Third quiz |
-| **November 15** | Fourth assignment due |
-| **November 23-29** | Fourth quiz (end-semester) |
+|:--|:--|
+| August 6 | Prerequisite exam due |
+| August 13 | Add/drop period ends |
+| August 24 | First assignment due |
+| September 1 | Second assignment released |
+| September 2 | First quiz |
+| September 15 | Second assignment due |
+| September 27 to October 4 | Second quiz (mid-semester) |
+| October 25 | Third assignment due |
+| October 29 | Third quiz |
+| November 15 | Fourth assignment due |
+| November 23 to 29 | Fourth quiz (end-semester) |
 
-::: {.callout-note}
-## Note
-All deadlines are **tentative** and subject to change. Check Slack and course announcements for updates.
-:::
-
+The [lecture library](schedule.qmd) lists the dates quizzes and assignments actually took place.
