@@ -1,96 +1,79 @@
 ---
-title: "Grading Policy"
+title: "Grading"
 ---
 
+| Component | Weight |
+|:--|--:|
+| Quizzes (best 3 of 4) | 54% |
+| Assignments | 40% |
+| Attendance | 6% |
 
-## Grade Distribution
+## Quizzes: 54%
 
-### Quizzes: 54%
-- **18% each** (4 quizzes total)
-- **Best 3 out of 4** quizzes count
-- **No makeup quizzes** for any reason
-- Missing a quiz = 0% for that quiz
+- There are 4 quizzes, each worth 18%.
+- The best 3 of the 4 count.
+- There are no makeup quizzes, for any reason. A missed quiz scores 0%.
 
 ::: {.callout-note}
-## Quiz Schedule
-- 2 quizzes during mid-semester
-- 2 quizzes during end-semester  
-- Mix of MCQs and subjective questions
-- **Closed book** examinations
+## Quiz format
+- 2 quizzes in the mid-semester period and 2 in the end-semester period.
+- A mix of multiple-choice and written questions.
+- Closed book.
 :::
 
----
+## Assignments: 40%
 
-### Assignments: 40%
-- **4-5 assignments** throughout the semester
-- **Group work** (team size TBA)
-- **Variable weights** (10-12% each)
-- At least one **project-like question** per assignment
+- 4 to 5 assignments during the semester, done in groups (team size to be announced).
+- Weights vary from 10 to 12% each.
+- Every assignment has at least one project-like question.
+- Assignments may involve pull requests to public repositories and Hugging Face Spaces demos, and each is followed by a
+  viva (see the [FAQ](faq.qmd#assignments)).
 
-**Assignment Features:**
-- Pull requests to public repositories
-- Hugging Face Spaces demos
-- Viva voce evaluation (see FAQ for details)
+| Assignment marks | Share |
+|:--|--:|
+| Code functionality | 50% |
+| Understanding of the assignment | 25% |
+| Code quality | 12.5% |
+| Theory | 12.5% |
 
-**Grade Breakdown:**
-- Code functionality: **50%**
-- Assignment understanding: **25%**
-- Code quality: **12.5%**
-- Theory concepts: **12.5%**
+## Attendance: 6%
 
----
+| Absences | Marks |
+|:--|--:|
+| ≤ 4 | 6% |
+| 5, 6 | 5% |
+| 7, 8 | 4% |
+| 9, 10 | 1% |
+| > 10 | 0% |
 
-### Attendance: 6%
+It is your responsibility to make sure your attendance is recorded on the biometric system. If it is not recorded,
+you are marked absent.
 
-| Absences | Grade |
-| -------- | ----- |
-| ≤ 4      | 6%    |
-| 5, 6     | 5%    |
-| 7, 8     | 4%    |
-| 9, 10    | 1%    |
-| > 10     | 0%    |
+::: {.callout-note}
+## Leave
+There is no leave system. A missed class counts as an absence; you do not need to inform the instructor or send a
+medical certificate.
 
-
-It is the student's responsibility to ensure attendance is recorded on the biometric system. If attendance is not recorded, it will be considered as absent.
-
-::: {.callout-tip}
-## Leave Requests
-There is no leave request system. If you miss a class, it will count as an absence. No need to inform the instructor or provide medical certificates, etc. 
-
-In case a student has to miss 4 or more classes in a row due to an emergency, they can discuss with the instructor for special consideration.
+If an emergency makes you miss 4 or more classes in a row, talk to the instructor about special consideration.
 :::
 
----
+## Bonus marks (above 100%)
 
-## Bonus Points (Above 100%)
-### Class Participation
-- **Up to 1%** for answering questions in class
-- **0.5% per question** (maximum 2 questions)
-- At instructor's discretion
+### Class participation
 
+- Up to 1% for answering questions in class: 0.5% per question, at most 2 questions.
+- At the instructor's discretion.
 
+### Kaggle competition
 
-::: {.callout-warning}
-## Notice
-There is a possibiility of a Kaggle competition during the semester. If it happens, it will be announced in class and on Slack. It will be bonus points only, not mandatory.
-*Subject to change based on competition availability*
+There may be a Kaggle competition during the semester. If there is one, it will be announced in class and on Slack.
+It is optional and counts only as bonus marks, and depends on a competition being available.
 
-| Performance | Bonus |
-|-------------|-------|
+| Result | Bonus |
+|:--|--:|
 | Participation | 0.5% |
 | 50th percentile | 1.0% |
 | 75th percentile | 1.5% |
 | 90th percentile | 2.0% |
 | 95th percentile | 2.5% |
-| **Top 3** | **3.0%** |
-:::
-
-
-
-
-
-
-
-
-
-
+| Top 3 | 3.0% |

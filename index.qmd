@@ -1,26 +1,21 @@
 ---
-title: "ES 335: Machine Learning"
-subtitle: "August 2025 • IIT Gandhinagar"
+title: "ES 335: Machine learning"
+subtitle: "August 2025 · IIT Gandhinagar"
 image: images/logo.jpeg
 ---
 
-::: {.grid}
-::: {.g-col-4}
-![](images/logo.jpeg){width=100%}
+::: {.lead}
+An introduction to machine learning: how models learn from data, how to evaluate them honestly, and the main
+families of methods, from decision trees and linear models to neural networks, clustering and support vector
+machines. Every lecture's slides, notebooks, cheat sheet and short videos are in the
+[lecture library](schedule.qmd).
 :::
 
-::: {.g-col-8}
-## Welcome to ES 335: Machine Learning
-:::
-:::
-
-::: {.text-center}
-### [Join our Slack workspace](https://join.slack.com/t/es335-2025/shared_invite/zt-3a7gi76q8-chqUpxbIdVGaKCsDzIxYcw) for course announcements and discussions
-
-:::
+Announcements and discussion are on the course Slack:
+[join the ES 335 workspace](https://join.slack.com/t/es335-2025/shared_invite/zt-3a7gi76q8-chqUpxbIdVGaKCsDzIxYcw).
 
 ::: {.callout-note}
-## Course Information
+## Course information
 
 **Instructor:** [Prof. Nipun Batra](https://nipunbatra.github.io)  
 Email: nipun.batra@iitgn.ac.in  
@@ -49,69 +44,55 @@ Office: 13/401C
 - Venkatakrishnan E (venkatakrishnan.e@iitgn.ac.in)
 :::
 
-
-
 ::: {.callout-warning}
-## Prerequisite Exam
+## Prerequisite exam
 
-The [prerequisite exam](exams/prereq.qmd) must be submitted by **August 10th, 2025 at 10:00 PM**.  
+Submit the [prerequisite exam](exams/prereq.qmd) by **August 10th, 2025 at 10:00 PM**.
 
-- The exam is **open book** and **open internet**
-- Submission instructions are provided within the exam
-- **Mandatory for course enrollment**
+- It is open book and open internet.
+- Submission instructions are in the exam.
+- It is required to enrol in the course.
 :::
-
 
 ## Prerequisites
 
-**Required Knowledge:**
+You should be comfortable with:
 
-- **Python Programming** - Good experience with data structures and algorithms
-- **Probability & Statistics** - Basic concepts and distributions
-- **Linear Algebra** - Vectors, matrices, and operations
-- **Calculus** - Derivatives and basic optimization
+- **Python programming**, with good experience of data structures and algorithms
+- **Probability and statistics**: basic concepts and distributions
+- **Linear algebra**: vectors, matrices and their operations
+- **Calculus**: derivatives and basic optimisation
 
-### Preparation Materials
+### Preparation material
 
-To refresh your understanding before the course begins:
+To refresh these before the course begins:
 
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) (Chapters 1-4)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/), chapters 1 to 4
 - [Linear Algebra for Machine Learning](https://machinelearningmastery.com/linear-algebra-machine-learning/)
 - [Khan Academy: Statistics and Probability](https://www.khanacademy.org/math/statistics-probability)
-- [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) (Free PDF)
+- [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) (free PDF)
 
+## Reference textbooks
 
+Primary references:
 
-## Reference Textbooks
+1. *Mathematics for Machine Learning*, Deisenroth, Faisal and Ong. [Free PDF](https://mml-book.github.io/book/mml-book.pdf)
+2. *An Introduction to Statistical Learning*, James, Witten, Hastie and Tibshirani. [Free online](http://www-bcf.usc.edu/~gareth/ISL/)
+3. *Pattern Recognition and Machine Learning*, Christopher Bishop. [Free PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 
-**Primary References:**
+Additional references:
 
-1. **Mathematics for Machine Learning** - Deisenroth, Faisal, Ong • [Free PDF](https://mml-book.github.io/book/mml-book.pdf)
+4. *The Elements of Statistical Learning*, Friedman, Hastie and Tibshirani. [Free PDF](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
+5. *Deep Learning*, Goodfellow, Bengio and Courville. [Free online](https://www.deeplearningbook.org/)
+6. *Pattern Classification*, Duda, Hart and Stork
+7. *Machine Learning*, Tom Mitchell
+8. *Machine Learning: A Probabilistic Perspective*, Kevin Murphy
 
-2. **An Introduction to Statistical Learning** - James, Witten, Hastie, Tibshirani • [Free Online](http://www-bcf.usc.edu/~gareth/ISL/)
+## Other courses
 
-3. **Pattern Recognition and Machine Learning** - Christopher Bishop • [Free PDF](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
-
-**Additional References:**
-
-4. **The Elements of Statistical Learning** - Friedman, Hastie, Tibshirani • [Free PDF](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
-
-5. **Deep Learning** - Goodfellow, Bengio, Courville • [Free Online](https://www.deeplearningbook.org/)
-
-6. **Pattern Classification** - Duda, Hart, Stork
-7. **Machine Learning** - Tom Mitchell
-8. **Machine Learning: A Probabilistic Perspective** - Kevin Murphy
-
-
-
-## Additional Learning Resources
-
-**Online Courses:**
-
-- [NPTEL Machine Learning](https://www.youtube.com/watch?v=r4sgKrRL2Ys&list=PL1xHD4vteKYVpaIiy295pg6_SY5qznc77) - Balaram Ravindran
-- [CMU Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml) - Mitchell & Balcan
-- [Coursera ML Course](https://www.coursera.org/learn/machine-learning) - Andrew Ng
+- [NPTEL Machine Learning](https://www.youtube.com/watch?v=r4sgKrRL2Ys&list=PL1xHD4vteKYVpaIiy295pg6_SY5qznc77), Balaraman Ravindran
+- [CMU Machine Learning](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml), Mitchell and Balcan
+- [Coursera Machine Learning](https://www.coursera.org/learn/machine-learning), Andrew Ng
 - [Fast.ai Machine Learning](https://course.fast.ai/ml)
 - [Fast.ai Deep Learning](https://course.fast.ai/index.html)
-- [UCI Machine Learning](http://sli.ics.uci.edu/Classes/2015W-273a) - Alex Ihler
-
+- [UCI Machine Learning](http://sli.ics.uci.edu/Classes/2015W-273a), Alex Ihler
